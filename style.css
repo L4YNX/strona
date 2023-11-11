@@ -4,21 +4,22 @@
 }
 
 body{
-    background: #d1a999;
+    background: #213647;
     padding: 0 20px;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     cursor: default;
+    color: #0D2233;
+    min-width: 1000px;
+    min-height: 1000px;
 }
 
 h1{
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 40px;
-    color: #fff;
     /* color: #d4501c; */
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 10px 10px 3px #c78c75;
 }
 
 .container {
@@ -27,9 +28,9 @@ h1{
     padding: 1%;
     width: 95%;
     height: 820px;
-    background: #c78c75;
+    background: #51687A;
     border-radius: 10px;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -38,7 +39,7 @@ h1{
 }
 
 .miesiac {
-    background: #fff;
+    background: #95A2AD;
     width: 85%;
     height: 65%;
     border-radius: 5px;
@@ -88,11 +89,11 @@ img{
 
 .swieto {
     width: 100px;
-    height: 100px;
+    height: auto;
     display: none;
     position: absolute;
-    background: white;
-    box-shadow: 1px 1px 10px black;
+    background: #95A2AD;
+    box-shadow: 2px 2px 10px black;
     border: 0;
     border-radius: 5px;
     padding: 5px;
@@ -121,7 +122,7 @@ img{
 .bubble{
     position: absolute;
     border-radius: 1000px;
-    background: rgb(255, 255, 255);
+    background: #A5C5E0;
     z-index: 1;
     width: 500px;
     height: 500px;
