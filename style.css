@@ -56,7 +56,6 @@ h1{
     top: -170px;
     left: 40px;
     font-size: 15px;
-    cursor: default;
     z-index: 4;
     display: grid; 
     grid-template-columns: repeat(7, auto);
