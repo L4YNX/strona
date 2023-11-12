@@ -4,19 +4,23 @@
 }
 
 body{
-    background: #213647;
+    /* background: #213647; */
+    background-image: url("img/bg.jpg");
     padding: 0 20px;
     font-family: Arial, Helvetica, sans-serif;
-    
     cursor: default;
     color: #0D2233;
     min-width: 1000px;
     min-height: 1000px;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 h1{
     color: #95A2AD;
-    margin-top: 30px;
+    margin-top: 1.5%;
     font-size: 40px;
     color: #95A2AD;
     text-align: center;
@@ -31,7 +35,7 @@ h1{
     height: 820px;
     background: #51687A;
     border-radius: 10px;
-    margin-top: 1%;
+    margin-top: 1.5%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -45,9 +49,10 @@ h1{
     height: 65%;
     border-radius: 5px;
     box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.4);
-    padding: 1%;
+    padding: 1.5%;
     transition: 0.5s;
     margin: 0 auto;
+    text-align: center;
 }
 
 .grid_container {
@@ -55,14 +60,13 @@ h1{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -170px;
-    left: 40px;
     font-size: 15px;
     z-index: 4;
     display: grid; 
     grid-template-columns: repeat(7, auto);
     grid-gap: 6px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .miesiac:hover{
@@ -70,11 +74,11 @@ h1{
 }
 
 .text{
-    float: right;
-    margin-top: 5px;
+    font-size: 18px;
 }
 
 img{
+    float: left;
     width: 95px;
     height: 100%;
     border-radius: 5px;
