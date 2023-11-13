@@ -6,6 +6,8 @@
 body{
     /* background: #213647; */
     background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding: 0 20px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: default;
@@ -40,15 +42,15 @@ h1{
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-gap: 1%;
-    grid-template-rows: repeat(3, 195px);
-    grid-template-columns: repeat(4, 25%);
+    grid-gap: 75px;
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(4, auto);
 }
 
 .miesiac {
     background: #95A2AD;
     width: 85%;
-    height: 195px;
+    height: auto;
     border-radius: 5px;
     box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.4);
     padding: 1.5%;
@@ -62,7 +64,7 @@ h1{
     justify-content: center;
     align-items: center;
     position: relative;
-    font-size: 15px;
+    font-size: 12px;
     z-index: 4;
     display: grid; 
     grid-template-columns: repeat(7, auto);
