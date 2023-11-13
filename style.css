@@ -32,10 +32,9 @@ h1{
 .container {
     position: relative;
     z-index: 3;
-    padding: 1%;
     width: 95%;
     height: auto;
-    padding-bottom: 1%;
+    padding: 20px 0;
     background: #51687A;
     border-radius: 10px;
     margin-top: 1.5%;
