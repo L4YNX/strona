@@ -94,14 +94,14 @@ img{
 }
 
 .swieto {
-    width: auto;
+    width: 100px;
     height: auto;
     display: none;
     position: absolute;
-    background: #95A2AD;
+    background: #646464;
     box-shadow: 2px 2px 10px black;
     border: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     z-index: 5;
     text-align: center;
@@ -110,12 +110,12 @@ img{
 
 .grid_dni-nazwa:hover .swieto{
     display: block;
-    opacity: .8;
+    opacity: 1;
 }
 
 .swieto-dni:hover .swieto{
     display: block;
-    opacity: .8;
+    opacity: 1;
 }
 
 .bag{
